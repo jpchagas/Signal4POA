@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- rating - Cordova -->
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8" />
+		<title>S4P</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/rating.css" />
+	</head>
+	<body>
+		<div id="container">
+			<header id="top">
+				<nav class="bar">
+					<div id="logo" class="bar-element">
+						<img src="assets/icon48.png" />
+					</div>
+					<div id="title" class="bar-element">
+						<p>Avaliar Sinal</p>
+					</div>
+					<a href="menu.html">
+						<div id="button" class="bar-element">
+							<img src="assets/menu48.png" />
+						</div>
+					</a>
+				</nav>
+			</header>
+			<div id="content">
+				<section class="rating">
+					<form method="post" action="">
+						<fieldset>
+							<h1>Avaliacao</h1>
+							<ul class="blist">
+								<li>
+									<input type="radio" name="rating" id="bad1" value="one" />
+									<label for="bad1">1 (sinal pessimo no local)</label>
+								</li>
+								<li>
+									<input type="radio" name="rating" id="bad2" value="two" />
+									<label for="bad2">2 (sinal ruim no local)</label>
+								</li>
+								<li>
+									<input type="radio" name="rating" id="reg3" value="three" />
+									<label for="reg3">3 (sinal regular no local)</label>
+								</li>
+								<li>
+									<input type="radio" name="rating" id="good4" value="for" />
+									<label for="good4">4 (sinal bom no local)</label>
+								</li>
+								<li>								
+									<input type="radio" name="rating" id="good5" value="five" />
+									<label for="good5">5 (sinal otimo no local)</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset>
+							<h2>Comentario</h2>
+							<div class="comment">
+								<textarea name="comment" id="comment" rows="8" cols="30"></textarea>
+							</div>
+						</fieldset>
+						<div class="send">
+							<input type="submit" value="Enviar" />
+						</div>
+					</form>
+				</section>
+			</div>
+			<footer id="bottom">
+			</footer>
+		</div>
+	</body>
+</html>
+

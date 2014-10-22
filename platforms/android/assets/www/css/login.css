@@ -1,0 +1,42 @@
+/* login - Cordova1 */
+@charset "utf-8";
+
+/* Login forms
+----------------------------- */
+.login  {}
+
+fieldset {
+	padding: 1%;
+	border: none;
+}
+ul {
+	text-align: center;
+}
+li {
+	padding: .5%;
+}
+input {
+	font: italic 100% Georgia, monospace;
+	padding: .6% .5%;
+}
+input[type="submit"] {
+	font: bold 100% Georgia, monospace;
+	color: white;
+	background-color: #1a103a;
+	padding: 2%;
+	border: none;
+	border-radius: 7px;
+}
+.send {
+	text-align: center;
+	padding: 1.2%;
+}
+.newuser {
+	font: normal 100% Georgia, monospace;
+	text-align: center;
+	padding: 2%;
+}
+.newuser a {
+	font: bold 100% Georgia, monospace;
+	color: #4a40bd;
+}

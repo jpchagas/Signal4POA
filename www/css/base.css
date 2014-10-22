@@ -1,0 +1,90 @@
+/* base - Cordova */
+@charset "utf-8";
+
+body, header, nav, article, section, aside, footer, div, span, 
+p, a, h1, h2, h3, h4, h5, h6, figure, li, ul, ol {
+	margin: 0;
+	padding: 0;
+} 
+a, p, li, h1, h2, h3, h4, h5, h6 {
+	font-size: 1em;
+	color: black;
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+
+/* Base style
+----------------------------- */
+html, body{
+	font: normal 100% Georgia, monospace;
+	height: 100%;
+}
+
+#container {}
+
+#top {}
+#content { 
+	clear: both;
+	padding: 1%;
+}
+#bottom {}
+
+/* Top bar 
+----------------------------- */
+.bar {
+	background-color: #eee;
+	/*position: fixed;
+	z-index: 9999;*/
+	overflow: hidden;
+}
+.bar-element {
+	min-height: 48px;
+	padding: 2% 0;
+	text-align: center;
+}
+#logo {
+	width: 25%;
+	float: left;
+}
+#title {
+	font: bold 170% Arial, monospace;
+	width: 50%;
+	float: left;
+}
+#button {
+	width: 25%;
+	margin-left: 75%;
+}
+#title p {
+	color: #116;
+}
+
+/* MQ 
+----------------------------- */
+@media only screen and (max-device-height: 1799px) {
+	#content {
+		height: 1280px;
+	}
+}
+@media only screen and (max-device-height: 1279px) {
+	#content {  
+		height: 1080px; 
+	}
+}
+@media only screen and (max-device-height: 1079px) {
+	#content {
+		height: 800px; 
+	}
+}
+@media only screen and (max-device-height: 799px) {
+	#content {  
+		height: 480px; 
+	}
+}
+@media only screen and (max-device-height: 479px) {
+	#content { 
+		height: 320px; 
+	}
+}

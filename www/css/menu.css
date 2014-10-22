@@ -1,0 +1,9 @@
+/* menu - Cordova */
+@charset "utf-8";
+
+/* Options menu 
+----------------------------- */
+.options li {
+	padding: 3% 2%;
+	border-bottom: 1px solid #bfbfbf;
+}

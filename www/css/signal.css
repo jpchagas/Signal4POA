@@ -1,0 +1,28 @@
+/* signal - Cordova */
+@charset "utf-8";
+
+/* Map
+----------------------------- */
+#content {
+	/*height: 100%;*/
+	/*width: 100%;*/
+}
+a {
+	color: #0b05ac
+}
+.info-sep-top {
+	font: bold 110% Arial, monospace;
+	padding-bottom: 5.4%;
+}
+.info-sep-middle {
+	font: bold 160% Arial, monospace;
+	color: #5a62af;
+	padding-top: 5.4%;
+}
+.info-sep-bottom {
+	font: bold 85% Arial, monospace;
+}
+li {
+	font: normal 85% Georgia, monospace;
+	padding: .6% 0;
+}

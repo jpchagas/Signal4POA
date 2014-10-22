@@ -1,0 +1,33 @@
+/* signup - Cordova1 */
+@charset "utf-8";
+
+/* Signup forms
+----------------------------- */
+.signup  {}
+
+fieldset {
+	padding: 1%;
+	border: none;
+}
+ul {
+	text-align: center;
+}
+li {
+	padding: .5%;
+}
+input {
+	font: italic 100% Georgia, monospace;
+	padding: .6% .5%;
+}
+input[type="submit"] {
+	font: bold 100% Georgia, monospace;
+	color: white;
+	background-color: #1a103a;
+	padding: 2%;
+	border: none;
+	border-radius: 7px;
+}
+.send {
+	text-align: center;
+	padding: 1.2%;
+}

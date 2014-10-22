@@ -1,0 +1,40 @@
+/* rating - Cordova */
+@charset "utf-8";
+
+/* Rating forms
+----------------------------- */
+.rating  {}
+
+fieldset {
+	padding: 1%;
+	border: none;
+}
+h1, h2, h3, h4, h5, h6, input[type="submit"] {
+	color: white;
+	background-color: #1a103a;
+	border-radius: 7px;
+	padding: .8% 3%;
+}
+input[type="submit"] {
+	font: bold 100% Georgia, monospace;
+	padding: 2%;
+	border: none;
+}
+.blist, .blist li {
+	padding: 2.1%;
+}
+.blist li+li {
+	border-bottom: none;
+	border-top: 1px solid #1a103a;
+}
+input[type="radio"]+label {
+	padding-left: 5%;
+}
+.comment {
+	text-align: center;
+	padding: 2.2%;
+}
+.send {
+	text-align: center;
+	padding: 1.2%;
+}

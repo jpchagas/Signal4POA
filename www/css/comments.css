@@ -1,0 +1,30 @@
+/* comments - Cordova */
+@charset "utf-8";
+
+/* Comments
+----------------------------- */
+.comments  {}
+
+fieldset {
+	padding: 1%;
+	border: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+	background-color: #1a103a;
+	border-radius: 7px;
+	padding: .8% 3%;
+}
+select {
+	font: normal 100% Georgia, monospace;
+	color: black;
+	min-width: 20%;
+	min-height: 2.5em;
+}
+.ids {
+	padding: 1.5%;
+}
+.comments-list {
+	text-align: center;
+	padding: 2.2%;
+}
